@@ -9,7 +9,8 @@ def calc(x,y,z):
     return(x*z)
   else:
     return("oops!")
-print("comands:+, - , / , * .")
-ask=input().split()
-all=calc(int(ask[0]),ask[1],int(ask[2]))
-print(all)
+x = int(input("1st num: "))
+z = int(input("2st num: "))
+y = input("operation: ")
+print calc(x,y,z)
+ 
